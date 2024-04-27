@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nossos Serviços</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<style>
+    .nossos-servicos {
+        width: 35vw;
+        height: auto;
+        background-color: white;
+        border-radius: 10px;
+        border: 3px solid green;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 30%;
+        margin-top: 5%;
+        position: fixed;
+        opacity: 0.8;
+        z-index: 2;
+
+
+    }
+
+    .mascara-formulario {
+        visibility: visible;
+        z-index: 1;
+    }
+
+    .nossos-servicos p {
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #ffffff;
+    }
+
+    .nossos-servicos h1 {
+        margin-right: 5%;
+    }
+
+
+    .caixa-img1 {
+        display: flex;
+        position: fixed;
+        left: 70%;
+        bottom: 20%;
+        right: 20%;
+
+    }
+
+    .boneco {
+        width: 450px;
+        height: auto;
+        position: fixed;
+        margin-bottom: 80%;
+        left: 20%;
+    }
+
+    .logo1 {
+        width: 500px;
+        height: auto;
+        display: flex;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        top: 35%;
+        left: 10%;
+    }
+
+    @media screen and (max-width: 2300px) {
+        .nossos-servicos {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80%;
+            max-width: 800px;
+            height: 80%;
+            max-height: 600px;
+            padding: 20px;
+            margin: 0;
+            background-color: rgba(255, 255, 255, 0.8);
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            z-index: 2;
+
+        }
+
+        .nossos-servicos h1,
+        .nossos-servicos p {
+            font-size: 15px;
+            text-align: center;
+            color: #000000;
+            overflow-y: scroll;
+            
+
+
+        }
+
+        .boneco,
+        .logo1 {
+            display: none;
+        }
+
+        .logo-header {
+            width: 90px;
+            height: auto;
+            margin-right: 5%;
+        }
+
+        .header a {
+            font-size: 15px;
+            margin-right: 5%;
+        }
+
+        .header:hover a {
+            font-size: 18px;
+        }
+    }
+</style>
+
+<body>
+    <div class="mascara-formulario" onclick="escondeFormulario()"></div>
+
+    <div class="header">
+        <img class="logo-header" src="./img/logo-header.png" alt="logo do site" />
+        <a href="index.html">Home</a>
+        <a href="nossos-servicos.html">Nossos Serviços</a>
+        <a onclick="encerraServico()">Fale Conosco</a>
+    </div>
+    <img class="logo1" src="./img/logo.png" alt="logo do tech" />
+
+
+
+
+    <div class="nossos-servicos">
+
+
+        <p>
+        <h1>Nossos Serviços</h1>
+
+
+        Reparo de vazamentos: Mario & Luigi são especialistas em identificar e corrigir vazamentos em tubulações,
+        torneiras, chuveiros e sistemas hidráulicos em geral.<br /><br />
+
+        Desentupimento de canos: Eles utilizam equipamentos especializados para desobstruir canos e tubulações
+        entupidas, garantindo o fluxo correto da água.<br /><br />
+
+        Instalação de sistemas hidráulicos: Mario & Luigi realizam a instalação completa de sistemas hidráulicos em
+        residências, comércios e indústrias, garantindo um funcionamento eficiente e duradouro.<br /><br />
+
+        Manutenção preventiva: Além de solucionar problemas, eles também oferecem serviços de manutenção preventiva
+        para evitar danos futuros e garantir a segurança do sistema hidráulico.<br /><br />
+
+        Reparo de aquecedores: Mario & Luigi são capacitados para reparar e manter aquecedores de água, garantindo
+        água quente em todas as torneiras da casa.<br /><br />
+
+        Instalação de filtros de água: Para garantir água limpa e saudável, eles podem instalar filtros de água de
+        alta qualidade em sua residência ou empresa.<br /><br />
+
+        Reparo de válvulas e registros: Qualquer problema com válvulas e registros pode ser resolvido pelos
+        Encanadores Mario & Luigi, garantindo o controle correto do fluxo de água.<br /><br />
+
+        Reforma de banheiros e cozinhas: Mario & Luigi podem auxiliar na reforma de banheiros e cozinhas, incluindo
+        a instalação de novas tubulações e acessórios hidráulicos.<br /><br />
+
+        Inspeção de tubulações: Eles realizam inspeções detalhadas nas tubulações usando câmeras especiais para
+        identificar danos e vazamentos ocultos.<br /><br />
+
+        Conserto de torneiras e chuveiros: Problemas com torneiras pingando ou chuveiros com baixa pressão são
+        resolvidos de forma rápida e eficiente por Mario & Luigi.<br /><br />
+
+        Esses são alguns dos principais serviços oferecidos pelos Encanadores Mario & Luigi. Eles são conhecidos por
+        sua habilidade, eficiência e compromisso com a qualidade, garantindo a satisfação de seus clientes.
+        </p>
+    </div>
+
+    <div class="caixa-img">
+        <img class="boneco" src="./img/mario.png" alt="boneco tech">
+    </div>
+
+
+    <div class="caixa-video">
+        <video src="./img/video1.mp4" autoplay muted loop></video>
+
+        <div class="mascara" onclick="escondeFormulario()"></div>
+    </div>
+
+    <form class="formulario" action='https://formcarry.com/s/aBDdHYn_6gO' method="POST" enctype="multipart/form-data">
+        <input class="nomev" type="text" name="nome" placeholder="Seu Nome" required />
+        <input class="telv" type="tel" name="telefone" placeholder="Telefone" required />
+        <textarea class="textareav" type="textarea" name="mensagem" placeholder="Digite o seu Problema"
+            required></textarea>
+        <button type="submit">Fazer Orçamento</button>
+    </form>
+</body>
+<script src="./script.js"></script>
+
+</html>
