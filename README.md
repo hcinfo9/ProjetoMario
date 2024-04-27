@@ -14,7 +14,8 @@
 <p>Utilizados para a criação da estrutura, estilo e interatividade do site.</p>
 <br>
 
-![image](https://github.com/hcinfo9/Irmaos-Mario/assets/167317747/5f5b0f27-c862-4040-bd92-7fee2f61f33f)
+![image](https://github.com/hcinfo9/Site-Mario-Responsivo/assets/167317747/271f12b3-f342-40f7-b5b8-ba45cfc4799b)
+
 
 <br>
 
@@ -26,7 +27,8 @@ Características Principais
 
 <br><br>
 
-![image](https://github.com/hcinfo9/Irmaos-Mario/assets/167317747/99543d25-e85e-44ac-b70d-643c2d854a2a)
+![image](https://github.com/hcinfo9/Site-Mario-Responsivo/assets/167317747/d4103785-4872-46d2-be6e-738f3bd6e916)
+
 
 <br><br>
 
@@ -35,7 +37,8 @@ Características Principais
 
 <br><br>
 
-![image](https://github.com/hcinfo9/Irmaos-Mario/assets/167317747/f07b5ed6-ccb3-427a-ad83-441a32f49766)
+![image](https://github.com/hcinfo9/Site-Mario-Responsivo/assets/167317747/89e67f68-9f21-416c-9517-a8ecd99aa544)
+
 
 
 <br><br>
