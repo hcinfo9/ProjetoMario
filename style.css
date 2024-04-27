@@ -278,3 +278,40 @@ textarea {
     }
 
 }
+@media screen and (max-width:375px) {
+    .header {
+        margin-top: -15px;
+        margin-left: -10px;
+        
+    }
+
+    a {
+        line-height: 20px;
+        font-size: 16px;
+        margin-left: -15px
+    }
+
+    .logo {
+        width: 250px;
+        height: 150px;
+        margin-top: -20px;
+    }
+
+    .caixa-principal button {
+        width: 160px;
+        height: 30px;
+        font-size: 12px;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    .boneco{
+        width:300px;
+        height:280px;
+    }
+    .icon-whats{
+        margin-top: -20px;
+        margin-left: -10px
+    }
+
+    } ;
+    
